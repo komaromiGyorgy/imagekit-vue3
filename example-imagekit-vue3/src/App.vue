@@ -40,7 +40,7 @@
 </template>
 
 <script setup lang="ts">
-import { IKImage, IKContext, IKVideo, IKUpload } from "imagekit-vue3";
+import { IKImage, IKContext, IKVideo, IKUpload, createImageKitVue } from "imagekit-vue3";
 
 const publicKey = import.meta.env.VITE_IK_PUBLIC_KEY;
 const urlEndpoint = import.meta.env.VITE_IK_URL_ENDPOINT;

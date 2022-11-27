@@ -1,6 +1,6 @@
 {
   "name": "imagekit-vue3",
-  "version": "0.0.1",
+  "version": "0.1.4",
   "scripts": {
     "build": "rimraf dist && vue-tsc && vite build",
     "docs:dev": "vitepress dev docs",
@@ -10,8 +10,7 @@
     "coverage": "vitest run --coverage"
   },
   "peerDependencies": {
-    "vue": "^3.2.45",
-    "imagekit-javascript": "^1.5.4"
+    "vue": "^3.2.45"
   },
   "devDependencies": {
     "@types/imagekit": "^3.1.2",
@@ -39,5 +38,15 @@
   },
   "dependencies": {
     "imagekit-javascript": "^1.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/komaromiGyorgy/imagekit-vue3"
+  },
+  "license": "MIT",
+  "author": "Gyorgy Komaromi <https://github.com/komaromiGyorgy>",
+  "bugs": {
+    "url": "https://github.com/komaromiGyorgy/imagekit-vue3/issues",
+    "email": "komaromigy40@gmail.com"
   }
 }
